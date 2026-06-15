@@ -19,13 +19,10 @@ const SubscribeForm = () => {
       onSubmit: subscribeFormSchema,
     },
     onSubmit: async ({ value }) => {
-      const response = await fetch(
-        `${import.meta.env.DEV ? "http://localhost:4321" : import.meta.env.SITE}/api/subscribe`,
-        {
-          method: "POST",
-          body: JSON.stringify(value),
-        },
-      );
+      const response = await fetch("/api/subscribe", {
+        method: "POST",
+        body: JSON.stringify(value),
+      });
 
       const { code, message } = await response.json();
 

@@ -11,5 +11,8 @@
 	},
 	"observability": {
 		"enabled": true
+	},
+	"vars": {
+		"SITE": "https://crece-site.crecechurch.workers.dev/"
 	}
 }
