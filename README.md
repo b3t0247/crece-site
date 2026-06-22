@@ -1,34 +1,21 @@
-<!-- Adapted from https://github.com/othneildrew/Best-README-Template -->
-
 <!-- BACK TO TOP -->
-
 <a id="readme-top"></a>
 
-# Crece Church
+# Crece Church Website
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/small.svg)](https://starlight.astro.build)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Astro Church is a high-performance and deeply customizable theme for [**Astro**](https://astro.build/). This theme prioritizes speed, ease of use, and robust sermon organization.
+Crece Church's website is a high‑performance, customizable website built with [**Astro**](https://astro.build/). It prioritizes speed, ease of use, and robust sermon organization.
 
 ---
 
-## Why Astro Church?
-
-Too many church websites are trapped on generic platforms that aren't built for ministry. The result? **Frustratingly slow load times, messy sermon archives, and expensive monthly fees.** Even worse, your content is often locked into a proprietary system you don't truly own.
-
-The **Astro Church Theme** was created to break that cycle. It is a purpose-built solution designed to solve the specific digital hurdles churches face. By prioritizing speed, intuitive sermon organization, and open-source freedom, we've made it easier (and cheaper) to have a solid church website.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## Demo
+## 🌐 Demo
 
 <div align="center">
 
-[![View Demo](https://img.shields.io/badge/View_Demo-→-0077FF?style=for-the-badge&logo=astro&logoColor=white)](https://sojourners.church)
+[![View Demo](https://img.shields.io/badge/View_Demo-→-0077FF?style=for-the-badge&logo=astro&logoColor=white)](https://crece-site.crecechurch.workers.dev/)
 
 <img src="./public/screenshot.webp" loading="lazy" alt="Screenshot">
 
@@ -40,27 +27,27 @@ The **Astro Church Theme** was created to break that cycle. It is a purpose-buil
 
 ## ✨ Key Features
 
-- 🆓 Completely Free: No licenses, no subscriptions, no hidden costs.
-- 🧠 No coding experience required: Comes with a [low-code setup guide](https://docs-astro-church.netlify.app/guides/low-code-setup/). Everything is configured by a settings file.
-- 🔓 Open-Source: Fully transparent code. Fork it, tweak it, and make it your own.
-- 🎨 Themeable: Easily adjust colors to match your church’s branding.
-- 📝 Markdown-Based Content: You own your data. All sermons, blog posts, and pages are stored as local Markdown files—no complex databases required.
-- 📅 Google Calendar Integration: Keep your community updated with a live sync of your church events.
-- 📧 Newsletter Ready: Built-in subscription form powered by Resend for seamless communication.
-- 📰 Integrated Blog: Share updates, devotionals, and news with a fully functional blogging engine.
-- 📄 Custom Pages: Easily add "About Us," "Leadership," "Beliefs," or "Location" pages.
+- 🧠 **Low‑Code Configuration** — Most settings are controlled through a single configuration file.  
+  *(User login coming soon!)*  
+  Some features are based on this [Astro guide](https://docs-astro-church.netlify.app/guides/low-code-setup/).
+- 🎨 **Themeable** — Easily adjust colors and branding.
+- 📝 **Markdown‑Based Content** — Sermons, blog posts, and pages are stored as Markdown files.
+- 📅 **Google Calendar Integration** — Automatically sync church events.
+- 📧 **Newsletter Ready** — Built‑in subscription form powered by Resend.
+- 📰 **Integrated Blog** — Publish devotionals, updates, and announcements.
+- 📄 **Custom Pages** — Add “About Us,” “Leadership,” “Beliefs,” “Location,” and more.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 🎙️ Powerful Sermon Management
+## 🎙️ Sermon Management
 
-Managing your media shouldn't be a chore. Astro Church includes a robust sermon library system:
+A powerful sermon library system:
 
-- Smart Search: Find messages instantly by Title or Scripture reference.
-- Dynamic Filtering: Filter your library by Sermon Series or Preacher.
-- Multi-Platform Embedding: Seamlessly embed audio or video from Spotify or YouTube directly into sermon pages.
+- 🔍 **Smart Search** — Search by title or scripture reference.
+- 🎚️ **Dynamic Filtering** — Filter by series or preacher.
+- 🎧 **Multi‑Platform Embedding** — Embed audio or video from Spotify, YouTube, and more.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,7 +58,7 @@ Managing your media shouldn't be a chore. Astro Church includes a robust sermon 
 1. Create a new project
 
 ```bash
-pnpm create astro@latest -- --template tmykkanen/astro-church
+pnpm create astro@latest -- --template crecechurch/crece-site
 ```
 
 2. Configure your site
@@ -87,23 +74,24 @@ cp .env.example .env
 pnpm dev
 ```
 
-Your site is now running at [http://localhost:4321](http://localhost:4321)
+Your site will be available at: [http://localhost:4321](http://localhost:4321)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## Documentation
+## 📚 Documentation
 
-Full documentation is available at [Astro Church Docs](https://docs-astro-church.netlify.app).
+Documentation is available at:  
+👉 [Astro Church Docs](https://docs-astro-church.netlify.app)
+
+> Note: Some features may differ from the original Astro Church Docs depending on customizations made for Crece Church.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## Project Build Info
-
-Built by [Tyler Mykkanen](https://github.com/tmykkanen) using:
+## 🛠️ Tech Stack
 
 - ![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white)
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -111,7 +99,7 @@ Built by [Tyler Mykkanen](https://github.com/tmykkanen) using:
 - ![Shadcn/ui](https://img.shields.io/badge/shadcn/ui-%23000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 - ![Tanstack Form](https://img.shields.io/badge/tanstack_form-%23DD9700.svg?style=for-the-badge&logo=tanstack&logoColor=white)
 - ![Resend](https://img.shields.io/badge/resend-%23000000.svg?style=for-the-badge&logo=resend&logoColor=#00C7B7)
-- ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+- ![Cloudflare](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,25 +107,46 @@ Built by [Tyler Mykkanen](https://github.com/tmykkanen) using:
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+We welcome contributions from volunteers and developers.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please open an issue or create a pull request.
+Don’t forget to give the project a star — thank you!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+How to contribute:
+
+```bash
+# 1. Fork the project
+# (Click the "Fork" button at the top-right of the GitHub repo)
+
+# 2. Clone your fork
+git clone https://github.com/<your-username>/crece-site.git
+cd crece-site
+
+# 3. Create your feature branch
+git checkout -b feature/my-update
+
+# 4. Make your changes, then commit them
+git add .
+git commit -m "Describe your change"
+
+# 5. Push your branch to your fork
+git push origin feature/my-update
+
+# 6. Open a Pull Request
+# (Go to your fork on GitHub → "Compare & pull request")
+
+```
+
+Thank you for helping improve the Crece Church website!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## License
+## 📄 License
 
-Astro Church is free for personal and commercial use under the MIT License. Attribution is not required, but a link back to this repository is always appreciated if you find the theme useful.
+This project is licensed under the MIT License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
