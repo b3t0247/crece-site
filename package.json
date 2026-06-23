@@ -12,6 +12,13 @@
     "preview": "pnpm run build && wrangler dev",
     "generate-types": "wrangler types",
     "deploy": "pnpm run build && wrangler deploy"
+  },  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "workerd",
+      "@parcel/watcher",
+      "sharp"
+    ]
   },
   "dependencies": {
     "@astrojs/cloudflare": "^13.7.0",
