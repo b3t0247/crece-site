@@ -30,6 +30,7 @@ const Sidebar: React.FC<{ menu: MenuItem[] }> = ({ menu }) => {
           aria-label="Open sidebar menu"
         >
           <Hamburger
+            size={22}
             toggled={isOpen}
             color="var(--muted-foreground)"
             label="Button to open sidebar menu"
