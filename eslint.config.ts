@@ -1,15 +1,13 @@
 // Core ESLint recommended rules
 import { fileURLToPath } from "node:url";
 
-// Include .gitignore
-import { includeIgnoreFile } from "@eslint/compat";
 import js from "@eslint/js";
 // Linting rules for Astro files
 import astroPlugin from "eslint-plugin-astro";
 // React-specific linting rules
 import reactPlugin from "eslint-plugin-react";
 // Utilities for defining config
-import { defineConfig } from "eslint/config";
+import { defineConfig, includeIgnoreFile } from "eslint/config";
 // Predefined global variables for different environments
 import globals from "globals";
 // TypeScript linting rules
@@ -19,7 +17,7 @@ const gitignorePath = fileURLToPath(new URL(".gitignore", import.meta.url));
 
 export default defineConfig([
   // 1. Ignores
-  includeIgnoreFile(gitignorePath, "Imported .gitignore patterns"),
+  includeIgnoreFile(gitignorePath),
 
   // 2. General Rules (Applies to all files)
   // {
