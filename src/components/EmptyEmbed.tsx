@@ -5,12 +5,12 @@ import ButtonLink from "@/components/ButtonLink";
 import StyledText from "@/components/StyledText";
 
 interface EmptyEmbedProps {
-  isCompact: boolean;
+  // isCompact: boolean;
   youtubeFallbackSearch: string | null;
 }
 
 const EmptyEmbed: FC<EmptyEmbedProps> = ({
-  isCompact,
+  // isCompact,
   youtubeFallbackSearch,
 }) => {
   return (

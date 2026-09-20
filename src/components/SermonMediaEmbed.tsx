@@ -21,7 +21,7 @@ const SermonMediaEmbed: FC<SermonMediaEmbedProps> = ({
   if (!url)
     return (
       <div className={`flex items-center ${isCompact ? "h-38" : "h-90"}`}>
-        <EmptyEmbed isCompact youtubeFallbackSearch={youtubeFallbackSearch} />
+        <EmptyEmbed youtubeFallbackSearch={youtubeFallbackSearch} />
       </div>
     );
 
@@ -39,7 +39,7 @@ const SermonMediaEmbed: FC<SermonMediaEmbedProps> = ({
     );
     return (
       <div className={`flex items-center ${isCompact ? "h-38" : "h-90"}`}>
-        <EmptyEmbed isCompact youtubeFallbackSearch={youtubeFallbackSearch} />
+        <EmptyEmbed youtubeFallbackSearch={youtubeFallbackSearch} />
       </div>
     );
   }

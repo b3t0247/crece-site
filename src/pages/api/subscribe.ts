@@ -24,7 +24,8 @@ function validate<T extends z.ZodTypeAny>(
 ): z.infer<T> {
   const result = schema.safeParse(data);
   if (!result.success) {
-    throw new Response(JSON.stringify(result.error.flatten()), { status: 400 });
+    // FIX: Using top-level z.flattenError to resolve the deprecation warning
+    throw new Response(JSON.stringify(z.flattenError(result.error)), { status: 400 });
   }
   return result.data;
 }
